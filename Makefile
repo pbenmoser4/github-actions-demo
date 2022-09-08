@@ -21,3 +21,5 @@ format:
 
 test:
 	python -m pytest -vv --cov=hello test_hello.py
+
+all: install lint test
